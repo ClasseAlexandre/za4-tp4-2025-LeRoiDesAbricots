@@ -1,0 +1,31 @@
+body {
+    background-color: palevioletred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+}
+
+#boutique {
+    color: darkred;
+    border-bottom: 2px;
+    border-color: chartreuse;
+    margin-bottom: 20px;
+    text-align: center;
+}
