@@ -1,7 +1,7 @@
 body {
-    background-color: lightblue;
+    background-color: burlywood;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: gray;
+    color: rgb(48, 48, 48);
     margin: 0;
     padding: 0;
 }
@@ -23,7 +23,7 @@ div {
 
 #boutique {
     text-decoration: none;
-    color: blue;
+    color: royalblue;
     border-bottom: solid;
     border-bottom-width: 2px;
     border-color: black;
@@ -52,7 +52,7 @@ a:hover {
 .h2-override {
     text-decoration: none;
     width: fit-content;
-    color: blue;
+    color: royalblue;
     border-bottom: solid;
     border-bottom-width: 2px;
     border-color: black;
@@ -83,7 +83,7 @@ p {
 }
 
 .link-list-elements {
-    color: lightslategrey;
+    color: rgb(48, 48, 48);
     text-decoration: none;
 }
 
