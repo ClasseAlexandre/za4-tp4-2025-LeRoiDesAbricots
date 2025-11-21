@@ -1,20 +1,19 @@
 body {
-    background-color: palevioletred;
+    background-color: lightblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: darkblue;
+    color: gray;
     margin: 0;
     padding: 0;
 }
 
 h1, h2 {
-    width: 1000px;
-    margin: auto;
     text-align: center;
 }
 
 img {
     display: block;
     margin: auto;
+    border-radius: 15px;
 }
 
 div {
@@ -23,9 +22,99 @@ div {
 }
 
 #boutique {
-    color: darkred;
-    border-bottom: 2px;
-    border-color: chartreuse;
+    text-decoration: none;
+    color: blue;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-color: black;
     margin-bottom: 20px;
     text-align: center;
+}
+
+#boutique:hover {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.parent {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.h2-override {
+    text-decoration: none;
+    width: fit-content;
+    color: blue;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+#cp-list {
+    list-style: none;
+    padding: 0px;
+    text-align: left;
+}
+
+.cp-list-elements {
+    background-color: white;
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#link-list {
+    text-align: left;
+}
+
+.link-list-elements {
+    color: lightslategrey;
+    text-decoration: none;
+}
+
+table {
+    width: 320px;
+    margin: auto;
+    border: none;
+}
+
+caption {
+    font-style: italic;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.colonne {
+    padding: 10px;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 12px;
+    height: 50px;
+    width: 100%;
+    border: none;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
 }
